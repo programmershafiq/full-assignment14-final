@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #fff;
+    width: 1080px;
+    margin: auto;
+}
+.header ul{
+    text-align: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a::before{
+    content: "\f015";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    color: black;
+    
+}
+.header ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 60px;
+    transition: 1s;
+    background-color: #48DBFB;
+}
+
+.header ul li:hover a{
+    background-color:#2980b9;
+}
+
+/* banner */
+.banner{
+    width: 1080px;
+    margin: auto;
+    background-color: #48DBFB;
+    padding: 100px 0;
+}
+
+.p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.h1{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+.banner a {
+    text-decoration: none;
+    font-size: 33px;
+    color: #ddd;
+    margin-top: 32px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 21px;
+}
+
+.banner a::before{
+    content: "\f3ce";
+    font-family:"Font Awesome 6 Free";
+    font-weight: 700;
+}
+
+/* section part */
+.section{
+    background-color: #fff;
+    width: 1080px;
+    margin: auto;
+    background-color: #ddd;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section h2{
+    text-align: center;
+    font-size: 35px;
+}
+.section p{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    margin-bottom: 32px;
+}
+
+/* image gallery */
+
+.image-gallery{
+    width: 20%;
+    height: 20%;
+    border: 1px solid tomato;
+    box-sizing: border-box;
+    box-shadow: black 1px 1px 15px;
+    margin-right: 0px;
+    margin-top: 16px;
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.image-gallery img{
+    max-width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* footer part */
+
+.footer{
+    background-color: #fff;
+    width: 1080px;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer h2 {
+    display: inline-block;
+    padding: 21px;
+}
+
+.footer p {
+    display: inline-block;
+    line-height: 34px;
+    margin-bottom: 18px;
+}
+
+
+.step1{
+    display: inline-block;
+    position: relative;
+    top: 42px;
+}
+.step2{
+    display: inline-block;
+    position: relative;
+    top: 42px;
+}
+.step3{
+    display: inline-block;
+    position: relative;
+    top: 42px;
+}
+
+.step1 h2 {
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    transform: rotate(-45deg);
+}
+.step2 h2{
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.step3 h2 {
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+}
+
+.footer-bootom{
+    width: 1080px;
+    margin: auto;
+    background-color: #000000;
+    text-align: center;
+    
+}
+
+.footer-bootom h3{
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+}
